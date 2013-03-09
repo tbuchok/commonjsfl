@@ -73,7 +73,7 @@ CommonJSFL will provide virtually -- and possibly categorically -- none of Node.
 
 ### This will never guarantee `my-favorite-package` from NPM to work
 
-NPM is a great place to put code so it can be installed. Some NPM modules actually will work inside the JSFL run-time. 
+NPM is a great place to put code. And NPM modules actually will work inside the JSFL run-time, so that's why `node_modules` and `package.json` are included here. NPM is a Good Thing™.
 
 But, admittedly, using the directory `node_modules` is a good idea, but it may be ambiguous -- this is not Node.js and most NPM modules rely on Node.js. Your favorite package will probably not work.
 
