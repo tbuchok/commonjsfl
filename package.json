@@ -1,7 +1,7 @@
 {
-  "name": "CommonJSFL",
+  "name": "commonjsfl",
   "version": "0.0.0",
-  "description": "Require files for use in JSFL projects.",
+  "description": "Require files for use in .jsfl projects.",
   "main": "common.jsfl",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
