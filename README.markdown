@@ -87,7 +87,7 @@ Working with Adobe scripting languages can be a bit painful for even the simples
 
 Maintaining larger projects leads to potential regressions and confusing code. 
 
-CommonJSFL looks to try and use some of the JavaScript best practices to bring some sanity to Adobe scripting projects. 
+CommonJSFL looks to try and use some of the CommonJS best practices -- most visible in Node.js -- to bring some sanity to Adobe scripting projects. 
 
 Particularlly, it may eventually provide a nice ability to unit test projects to ensure test coverage!
 
