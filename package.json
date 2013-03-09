@@ -1,0 +1,16 @@
+{
+  "name": "CommonJSFL",
+  "version": "0.0.0",
+  "description": "Require files for use in JSFL projects.",
+  "main": "common.jsfl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jsfl",
+    "adobe",
+    "commonjs"
+  ],
+  "author": "Tom Buchok <tom@buchok.com> (http://buchok.com/)",
+  "license": "BSD"
+}
