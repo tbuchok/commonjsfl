@@ -20,7 +20,7 @@ var wackyArrays = require('./cool-arrays'); // [1, 2, 3]
 _(wackyArrays).forEach(alert).join(',') // 1, 2, 3
 ```
 
-### File structure is important
+### Clone into the proper place
 
 These files assume to be cloned to a specific location. That specific location is this one:
 
@@ -28,7 +28,19 @@ These files assume to be cloned to a specific location. That specific location i
 $ ~/Library/Application%20Support/Adobe/Flash%20CS5.5/en_US/Configuration/CommonJSFL/
 ```
 
+### `eval` the library
+
 Once the library is cloned, it is important to `eval` the file `common.jsfl`.
+
+```javascript
+// Load common.jsfl into the global scope:
+eval(FLfile.read(fl.configURI + "CommonJSFL/common.jsfl"));
+
+var foo = require('foo');
+// Write more code ...
+```
+
+### Directory structure is important
 
 Files within directories `CommonJSFL/core` and `CommonJSFL/node_modules` will be searched first when `require`ing. 
 
@@ -59,7 +71,7 @@ The idea is that writing modular applications is beneficial and leads to more ma
 
 CommonJSFL will provide virtually -- and possibly categorically -- none of Node.js's cool things.
 
-### This will never be able to install <my-favorite-package> off of NPM
+### This will never guarantee `my-favorite-package` from NPM to work
 
 NPM is a great place to put code so it can be installed. Some NPM modules actually will work inside the JSFL run-time. 
 
