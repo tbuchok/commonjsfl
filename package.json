@@ -12,5 +12,9 @@
     "commonjs"
   ],
   "author": "Tom Buchok <tom@buchok.com> (http://buchok.com/)",
-  "license": "BSD"
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tbuchok/commonjsfl.git"
+  }
 }
